@@ -81,7 +81,7 @@
     </collision>
   </link>
   <joint
-    name="base_link_to_arm_base"
+    name="base_link_to_arm_base_joint"
     type="fixed">
     <origin
       xyz="-0.03175 0 0.020574"
@@ -134,7 +134,7 @@
     </collision>
   </link>
   <joint
-    name="base_link_to_kinect_base"
+    name="base_link_to_kinect_base_joint"
     type="fixed">
     <origin
       xyz="-0.17145 0 0.1571"
@@ -187,7 +187,7 @@
     </collision>
   </link>
   <joint
-    name="base_link_to_front_left_wheel"
+    name="base_link_to_front_left_wheel_joint"
     type="continuous">
     <origin
       xyz="0 0.1143 0"
@@ -240,7 +240,7 @@
     </collision>
   </link>
   <joint
-    name="base_link_to_front_right_wheel"
+    name="base_link_to_front_right_wheel_joint"
     type="continuous">
     <origin
       xyz="0 -0.1143 0"
@@ -293,7 +293,7 @@
     </collision>
   </link>
   <joint
-    name="base_link_to_rear_left_wheel"
+    name="base_link_to_rear_left_wheel_joint"
     type="continuous">
     <origin
       xyz="-0.17145 0.1143 -0.00323850000000001"
@@ -346,7 +346,7 @@
     </collision>
   </link>
   <joint
-    name="base_link_to_rear_right_wheel"
+    name="base_link_to_rear_right_wheel_joint"
     type="continuous">
     <origin
       xyz="-0.17145 -0.1143 -0.00323849999999998"
@@ -399,7 +399,7 @@
     </collision>
   </link>
   <joint
-    name="base_link_to_laser"
+    name="base_link_to_laser_joint"
     type="fixed">
     <origin
       xyz="0.03175 0 0.077724"
@@ -452,7 +452,7 @@
     </collision>
   </link>
   <joint
-    name="base_link_to_imu"
+    name="base_link_to_imu_joint"
     type="fixed">
     <origin
       xyz="-0.19304 0 0.093599"
