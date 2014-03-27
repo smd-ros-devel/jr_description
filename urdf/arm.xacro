@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <robot>
-  <include filename="$(find turtlebot_arm_description)/urdf/arm_hardware.xacro" />
+  <include filename="$(find jr_description)/urdf/arm_hardware.xacro" />
 
   <material name="white">
     <color rgba="0.87 0.90 0.87 1.0"/>

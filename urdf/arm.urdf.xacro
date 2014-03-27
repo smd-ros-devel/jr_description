@@ -7,7 +7,7 @@
 
     <!-- Included URDF Files -->
     <!--<include filename="$(find turtlebot_description)/urdf/turtlebot.urdf.xacro" />-->
-    <include filename="$(find turtlebot_arm_description)/urdf/arm.xacro" />
+    <include filename="$(find jr_description)/urdf/arm.xacro" />
 
     <!-- For now I have removed the turtlebot since this all moved around..
     <turtlebot />-->
